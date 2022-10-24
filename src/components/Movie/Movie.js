@@ -2,10 +2,7 @@ import css from './Movie.module.css'
 import {Stars} from "../StarsRating/Stars";
 import {Link} from "react-router-dom";
 
-
-
 const Movie = ({movie}) => {
-
 
     return(<div className={css.Movie}>
 

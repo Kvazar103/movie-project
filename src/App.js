@@ -2,9 +2,7 @@
 import './App.css';
 import {Header, Movies, MovieTemplate} from "./components";
 
-import {Route,Routes,Navigate} from "react-router-dom";
-
-
+import {Route,Routes} from "react-router-dom";
 
 function App() {
 
@@ -16,8 +14,10 @@ function App() {
         <Header/>
         <Routes>
 
+
                 <Route index element={<Movies/>}/>
             <Route path={'/movieTemplate'} element={<MovieTemplate/>}/>
+
 
         </Routes>
 

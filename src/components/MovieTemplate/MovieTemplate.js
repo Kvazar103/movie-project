@@ -3,7 +3,6 @@ import {Stars} from "../StarsRating/Stars";
 import css from './MovieTemplate.module.css'
 
 
-
 const MovieTemplate = () => {
     let {state:movie}=useLocation()
     return(<div className={css.Main}><div className={css.movieTemplate}>

@@ -1,7 +1,9 @@
 .movieTemplate{
-    width: 500px;
+    width: 400px;
     color: mediumblue;
+    border: 2px solid blue;
 }
 .Main{
     padding-left: 40%;
+
 }
